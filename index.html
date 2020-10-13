@@ -1,1 +1,41 @@
-<!---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ajax List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+  <!--container starts here-->
+  <div class="container">
+    <!-- Header starts here -->
+    <header>
+      <div class="wrapper">
+        <div class="heading">
+          <p><a href="#FIXME" title="click me for more content" class="jasonFile"
+              id="jasonFile">https://jsonplaceholder.typicode.com/posts</a>
+            Hit the URL mentioned on the left and display the first 6 posts
+            with title and description. On Load more click, display the next 6
+            and so on until the last posts are displayed. Once the last posts
+            are displayed, hide the load more cta</p>
+        </div>
+      </div>
+    </header>
+    <!-- Header ends here -->
+    <!--main starts here-->
+    <main>
+      <div class="wrapper">
+        <span>Click link to load content</span>
+        <div class="info" id="info"></div>
+        <button class="btn" title="click to load more" id="btn">LOAD MORE</button>
+      </div>
+    </main>
+    <!--main ends here-->
+  </div>
+  <!--container ends here-->
+  <script src="js/vendors/jquery-1.8.3.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
