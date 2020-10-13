@@ -257,3 +257,54 @@ sub {
 	margin: 20px auto 20px;
 	background-color: #c5b3d6;
 }
+/* ==========================================================================
+   3. Header
+   ========================================================================== */
+   
+.heading p { color: #414040; }
+
+/* ==========================================================================
+   4. Content
+   ========================================================================== */
+
+/* 4.1.Info
+   ========================================================================== */
+
+.info div {
+	padding: 20px;
+  border-radius: 20px;
+  margin: 15px;
+	background-color: #431963bd;
+	color: #fff;
+}
+
+.info div:hover {	
+  -webkit-box-shadow: 0px 0px 10px 10px #ff00005e;
+  box-shadow: 0px 0px 10px 10px #ff00005e; 
+}
+
+.info p {	padding: 5px; }
+
+/* 4.2.Button
+   ========================================================================== */
+
+.display {
+	padding: 10px;
+  border-radius: 20px;
+  margin: 15px auto 15px;
+	display: block;
+	background-color: rgb(134, 94, 160);
+	color: #fff;
+	font-size: 15px;
+}
+
+.display:hover { 
+  -webkit-box-shadow: 0px 0px 30px 5px #5e45b9;
+  box-shadow: 0px 0px 30px 5px #5e45b9; 
+}
+
+.display:focus { outline: none; }
+.btn { display: none; }
+.display { display: block; }
+.displayNone { display: none; }
+
